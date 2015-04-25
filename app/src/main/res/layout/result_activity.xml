@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kekuatan anda"
+        android:layout_margin="10dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:id="@+id/textViewJudul"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:id="@+id/linearLayout1"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/textViewJudul"
+    android:layout_alignLeft="@+id/textViewJudul"
+    android:layout_alignStart="@+id/textViewJudul">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewResult"
+        android:text="Kekuatan anda adalah"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading...."
+        android:textSize="18sp"
+        android:id="@+id/textViewResultontent"
+        android:layout_below="@+id/textViewResult"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/textViewJudul"
+        android:layout_alignStart="@+id/textViewJudul">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResult2"
+            android:text="Kekuatan anda adalah"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading...."
+            android:textSize="18sp"
+            android:id="@+id/textViewResultontent2"
+            android:layout_below="@+id/textViewResult"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/textViewJudul"
+        android:layout_alignStart="@+id/textViewJudul">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResult3"
+            android:text="Kekuatan anda adalah"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Loading...."
+            android:textSize="18sp"
+            android:id="@+id/textViewResultontent3"
+            android:layout_below="@+id/textViewResult3"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

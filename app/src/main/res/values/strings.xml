@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CobaQuiz2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="peranyaan_object">Pertanyaan</string>
+    <string-array name="Pilihan">
+        <item>Sangat Sesuai</item>
+        <item>Sesuai</item>
+        <item>Agak Sesuai</item>
+        <item>Tidak Sesuai</item>
+        <item>Sangat Tidak Sesuai</item>
+    </string-array>
+
+</resources>
